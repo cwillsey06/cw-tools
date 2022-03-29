@@ -1,0 +1,12 @@
+{
+  "name": "CamPartHere",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "CamPartHere": {
+        "$path": "src" 
+      }
+    }
+  }
+}

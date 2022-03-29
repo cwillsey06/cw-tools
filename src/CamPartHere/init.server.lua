@@ -5,8 +5,9 @@
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
 local Selection = game:GetService("Selection")
 
-local Promise = require(script.Promise)
-local new  = require(script.new)
+local Modules = script.Parent.modules
+local Promise = require(Modules.Promise)
+local new  = require(Modules.new)
 
 local Toolbar = plugin:CreateToolbar("cw-tools")
 local Button = Toolbar:CreateButton("CamPart Here", "Inserts a \"CamPart\" at your camera's position.", "rbxassetid://4458901886")

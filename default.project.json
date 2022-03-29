@@ -1,10 +1,10 @@
 {
-  "name": "CamPartHere",
+  "name": "cw-tools",
   "tree": {
     "$className": "DataModel",
 
-    "ServerScriptService": {
-      "CamPartHere": {
+    "Workspace": {
+      "cw-tools": {
         "$path": "src" 
       }
     }
